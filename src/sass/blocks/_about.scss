@@ -3,11 +3,12 @@
     &_content {
         display: flex;
         margin-top: 140px;
+        width: 1300px;justify-content: space-between;
     }
     &_descr {
         width: 700px;
         height: 700px;
-        margin-left: 100px;
+        margin-left: 80px;
         &_title {
             font-family: Rosario;
             font-weight: 700;
@@ -62,11 +63,12 @@
     }
 
     &_picture {
+        width: 585px;
         &_man {
             position: relative;
             top: 200px;
             left: 83px;
-            z-index: 0;
+            z-index: +5;
             cursor: pointer;
         }
         &_round {
@@ -74,13 +76,31 @@
             top: -145px;
             left: 60px;
             z-index: -1;
+            
         }
         &_ellipse {
             position: relative;
             top: -660px;
             left: 180px;
+            
         }
+        &_salad {
+            position: relative;
+            width: 610px;
+            top: 180px;
+            display: none;
+        }
+
         
     }
     
 }
+
+.about_picture_man.active, .about_picture_round.active, .about_picture_ellipse.active {
+    display: none;
+}
+
+.about_picture_salad.active {
+    display: inline-block;
+}
+
