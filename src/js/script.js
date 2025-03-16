@@ -6,3 +6,4 @@ button1.addEventListener('click', () => {
     el.classList.toggle('active');
   });
 });
+

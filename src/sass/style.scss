@@ -1,5 +1,6 @@
 @import 'base/variables.scss';
 @import 'base/mixins.scss';
+@import 'base/animated';
 
 html {
     font-family: 'MuseoSans', sans-serif;
@@ -16,3 +17,5 @@ html {
 @import 'blocks/promo.scss';
 @import 'blocks/promo_media.scss';
 @import 'blocks/about';
+@import 'blocks/about_media';
+

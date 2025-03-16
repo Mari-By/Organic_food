@@ -1,0 +1,207 @@
+@media (max-width: 1440px) {
+    .about {
+        
+        &_descr {
+            &_title {
+                font-size: 55px;
+            } 
+        }
+    }
+}
+
+@media (max-width: 1330px) {
+    .about {
+        height: 700px;
+        &_content {
+            margin-top: 100px;
+        }
+        &_descr {
+            width: 640px;
+            height: 100%;
+        }
+        &_picture {
+            width: 470px;
+            &_man {
+                width: 80%;
+                top: 110px;
+                left: 23px;
+            }
+            &_round {
+                width: 80%;
+                top: -240px;
+                
+            }
+            &_ellipse {
+                width: 80%;
+                top: -740px;
+                left: 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .about {
+        height: 650px; 
+        &_content {
+            height: 650px;
+            margin: 0 auto;
+            margin-top: 80px;
+            max-width: 1035px;
+        }
+        &_descr {
+            width: 450px;
+            margin-left: 50px;
+            &_title {
+                font-size: 40px;
+            }
+            &_text {
+                width: 430px;
+                font-weight: 400;
+                font-size: 16px;
+              
+            }
+            &_item {
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+        }
+
+        &_picture {
+            height: 650px;
+        }
+    }
+
+}
+
+@media (max-width: 992px) {
+    .about {
+        max-height: 400px; 
+        &_content {
+            width: 100%;
+            max-height: 400px; 
+            margin-top: 50px;
+        }
+        &_descr {
+            width: 60%; 
+            max-height: 400px;
+            margin-left: 30px;
+            &_title {
+                width: 170%;
+                font-size: 30px;
+                line-height: 30px;
+            }
+            &_text {
+                width: 170%; 
+                font-size: 12px;
+                margin-top: 15px;
+                line-height: 20px;
+            }
+            &_item {
+                margin-top: 20px;
+                margin-left: 15px;
+                width: 90%;
+                justify-content: start;
+            }
+            &_pic {
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+            }
+            &_img {
+                width: 70%;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            &_info {
+                width: 75%;
+                margin-left: 15px;
+                font-size: 12px;
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+        &_picture {
+            width: 40%;
+            max-height: 400px;
+            &_man {
+                top: 70px;
+                width: 80%;
+            }
+            &_round {
+                display: none;
+            }
+            &_ellipse {
+                display: none;
+            }
+            &_salad {
+                width: 350px;
+                top: 130px;
+                left: -10px;
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        max-height: 550px;
+        &_content {
+            max-height: 550px;
+        }
+        &_descr {
+            width: 100%;
+            margin-left: 15px;
+            &_title {
+                width: 90%;
+            }
+            &_text {
+                width: 95%;
+                margin-left: 10px;
+            }
+        }
+        &_picture {
+            width: 0px;
+        }
+        
+    }
+}
+@media (max-width: 576px) {
+    .about {
+        min-height: 380px;
+        &_content {
+            min-height: 380px;
+        }
+        &_descr {
+            min-height: 380px;
+            &_title {
+                font-size: 20px;
+                width: 100%;
+            }
+            &_text {
+                font-size: 12px;
+            }
+            &_item {
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+            &_info {
+                span {
+                    font-size: 15px;
+                }
+            }
+            &_pic {
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+            }
+            &_img {
+                width: 60%;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
