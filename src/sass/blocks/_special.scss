@@ -1,0 +1,76 @@
+.special {
+    height: 830px;
+    margin-top: 140px;
+    background-color: rgba(9, 166, 109, 0.1);
+    &_content {
+        margin: 0 auto;
+        padding-top: 88px;
+        width: 1250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_pic {
+        width: 600px;
+        height: 600px;
+    }
+    &_descr {
+        width: 600px;
+        height: 600px;
+        &_title {
+            font-family: Rosario;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 90px;
+
+        }
+        &_text {
+            margin-top: 20px;
+            font-family: DM Sans;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            
+        }
+    }
+    &_explor {
+        display: flex;
+        justify-content: space-between;
+        width: 176px;
+        margin-top: 50px;
+        
+        &_text {
+            font-family: DM Sans;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 17px;
+    
+        }
+        &_img {
+            background: #09A66D;
+            border-radius: 32px;
+            width: 64px;
+            height: 64px;
+            cursor: pointer;
+            border: none;
+            img {
+                margin-top: 6px;
+                margin-left: 3px;
+            }
+        }
+    }
+    &_fresh {
+        position: relative;
+        top: -110px;
+        left: 150px;
+        z-index: 4;
+        width: 552px;
+    }
+    
+    
+}
+
+.animated {
+    animation: pulse 1.5s ease infinite;
+}

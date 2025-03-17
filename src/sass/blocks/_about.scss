@@ -1,5 +1,5 @@
 .about {
-    height: 1065px;
+    height: 720px;
     &_content {
         display: flex;
         margin-top: 140px;
@@ -7,7 +7,7 @@
     }
     &_descr {
         width: 700px;
-        height: 700px;
+        max-height: 700px;
         margin-left: 80px;
         &_title {
             font-family: Rosario;
